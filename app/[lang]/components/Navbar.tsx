@@ -25,7 +25,6 @@ export default function Navbar({
   const [isOpen, setIsOpen] = useState(false);
   const pathName = usePathname().split('/')[2];
 
-  console.log('PathName', pathName);
   const navbarLinks: NavbarType[] = [
     {
       id: 'mercury',
