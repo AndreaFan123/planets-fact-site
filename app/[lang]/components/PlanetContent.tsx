@@ -50,8 +50,8 @@ export const PlanetContent = ({
           loading="lazy"
           className={`self-center ${
             items.planetName === dictionary.planets.saturn
-              ? 'w-[62px] xl:w-[110px] xl:top-[57px] top-[33px] xl:right-[238px] right-[37px]'
-              : 'w-[75px] xl:w-[150px] xl:top-0 xl:right-[197px]  top-0 right-0'
+              ? 'w-[62px] xl:w-[110px] xl:top-[57px] top-[33px] xl:right-[178px] 2xl:right-[261px]  right-[37px]'
+              : 'w-[75px] xl:w-[150px] xl:top-0 xl:right-[137px] 2xl:right-[219px] top-0 right-0'
           }  h-auto absolute`}
         />
       );
@@ -67,8 +67,8 @@ export const PlanetContent = ({
           loading="lazy"
           className={`self-center ${
             items.planetName === dictionary.planets.saturn
-              ? 'w-[62px] xl:w-[100px] xl:top-[230px] xl:right-[297px]  top-[125px] right-[67px]'
-              : 'w-[75px] xl:w-[120px] top-[100px] xl:top-[230px] xl:right-[288px] right-[37px]'
+              ? 'w-[62px] xl:w-[100px] xl:top-[230px] xl:right-[238px]  top-[125px] 2xl:right-[320px] right-[67px]'
+              : 'w-[75px] xl:w-[120px] top-[100px] xl:top-[230px] xl:right-[227px] 2xl:right-[312px] right-[37px]'
           }  h-auto absolute`}
         />
       );
